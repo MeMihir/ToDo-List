@@ -1,0 +1,125 @@
+body
+{
+    /* background-color: red; */
+    font-family: 'Roboto', sans-serif;
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-plus
+{
+    float: left;
+}
+
+span
+{
+    background-color: #e74c3e;
+    height: 40px;
+    text-align: center;
+    margin-left: 20%;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    visibility: hidden;
+}
+
+li:hover span
+{
+    width: 40px;
+    opacity: 1.0;
+    visibility: visible;
+}
+
+li:hover .far
+{
+    margin-right: 3%;
+}
+
+.far
+{
+    margin-right: 15%;
+    float: inline-start;
+    transition: 0.2s linear;
+}
+
+
+h1 .fa-trash
+{
+    float: right;
+}
+
+h1 
+{
+    text-align: center;
+    background-color: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li
+{
+    text-align: right;
+    background-color: #ffffff;
+    height: 40px;
+    line-height: 40px;
+    color: #666666;
+}
+
+
+
+input:focus
+{
+    outline: none;
+}
+
+li:nth-child(2n)
+{
+    background-color: #f7f7f7;
+}
+
+li:nth-child(2n) input
+{
+    background-color: #f7f7f7;
+}
+
+#container
+{
+    width: 20rem;
+    margin: 10rem auto;
+    border: 0px solid grey;
+    background-color: #f7f7f7;
+}
+
+input
+{
+    border: 0;
+}
+
+#addToDo
+{
+    border: 0px black solid;
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+/*TICK EFFECT*/
+.tick
+{
+    color: grey;
+    text-decoration: line-through;
+}
